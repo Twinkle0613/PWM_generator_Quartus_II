@@ -25,9 +25,11 @@ begin
       if(counter >= 200000)
        counter = 0; 
      end 
+    counter = counter + 1;
+  
   end
    
-  counter = counter + 1;
+
 end 
 
 endmodule 
